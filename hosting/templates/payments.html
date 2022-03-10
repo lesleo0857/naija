@@ -1,0 +1,84 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="{% static 'js/jquery.js' %}"></script
+</head>
+<body>
+<!--<form id="paymentForm" method="POST" action="">-->
+<!--    {% csrf_token%}-->
+
+
+
+<!--    <input type="text" value="{{r}}" name="amount" id="amount_id" placeholder="{{b}}">-->
+<!--     <input type="email"  name="email" id="email_id">-->
+<!--    <script src="https://js.paystack.co/v1/inline.js"></script>-->
+<!--    <button type="submit" value="submit" ></button>-->
+<!--{{a.email}}-->
+<!--    {{paystack}}-->
+<!--</form>-->
+{{b}}
+check to see that the amount to be paid in  is higher or equal to total amount
+after payment is verified  Order.ordered should be set to True  ie the ordered checkbox
+
+<form id="paymentForm">
+  <div class="form-group">
+    <label for="email-address">Email Address</label>
+    <input type="email" id="email-address" required />
+  </div>
+  <div class="form-group">
+    <label for="amount">Amount</label>
+    <input type="tel" id="amount" required />
+  </div>
+  <div class="form-group">
+    <label for="first-name">First Name</label>
+    <input type="text" id="first-name" />
+  </div>
+  <div class="form-group">
+    <label for="last-name">Last Name</label>
+    <input type="text" id="last-name" />
+  </div>
+  <div class="form-submit">
+    <button type="submit" onclick="payWithPaystack()"> Pay </button>
+  </div>
+</form>
+<script src="https://js.paystack.co/v1/inline.js"></script>
+
+
+<script>
+     console.log(window.location.hostname)
+    const paymentForm = document.getElementById('paymentForm');
+paymentForm.addEventListener("submit", payWithPaystack, false);
+function payWithPaystack(e){
+  e.preventDefault();
+  let handler = PaystackPop.setup({
+    key: '{{paystack_pk}}', // Replace with your public key
+    email: document.getElementById("email-address").value,
+    amount: document.getElementById("amount").value * 100,
+ //  ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+    // label: "Optional string that replaces customer email"
+    onClose: function(){
+      alert('Window closed.');
+    },
+   callback: function(response){
+   var t = response.reference
+   alert(t)
+  $.ajax({
+    url: 'http://127.0.0.1:8000/verify_payment/'+ response.reference,
+    method: 'get',
+    success: function (response) {
+      // the transaction status is in response.data.status
+    }
+  });
+}
+  });
+
+  handler.openIframe();
+}
+
+</script>
+
+</body>
+</html>

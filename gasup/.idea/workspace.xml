@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5aa85d97-1f2c-47fe-8f85-7d2ca13b6387" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0002_auto_20210610_1827.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0003_auto_20210610_1836.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0004_auto_20210610_1846.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0005_auto_20210610_1855.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0006_auto_20210610_1921.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0007_auto_20210610_2220.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0008_auto_20210701_2100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0009_auto_20210701_2253.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0010_payment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0011_auto_20210718_0127.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/migrations/0012_auto_20210725_2253.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/paystack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/templates/activate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/templates/actvation_failed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/templates/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/templates/payments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/templates/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hosting/templates/verify_payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/IMG_20210508_082444_023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/PICVVV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/download3_FLlR4LU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/download3_M0GxRFq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/download3_OcH9KvJ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/download3_OvLnpvd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/download3_bPG4Lwm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/jii.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/lesley_8RofoP6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/lesley_MroO8Ex.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/lesley_xrZXStm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/lesley_z8l2SIj.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hosting/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hosting/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hosting/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hosting/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hosting/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hosting/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hosting/templates/allorders.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hosting/templates/allorders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hosting/templates/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hosting/templates/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hosting/templates/orderdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hosting/templates/orderdetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hosting/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hosting/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hosting/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hosting/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hosting/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hosting/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/dist/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/mdb-prefix/util/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap/src/util/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/ripple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/free/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb.free.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/handlers/click-rail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/handlers/drag-thumb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/handlers/keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/handlers/mouse-wheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/handlers/touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/lib/class-names.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/lib/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/lib/dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/lib/event-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/process-scroll-diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/perfect-scrollbar/update-geometry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/util/focusTrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/util/keycodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/util/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/util/stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/util/touch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/util/touch/swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/mdb/util/touch/touchUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/SelectBox.b49f008d186b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/SelectFilter2.bf63c55b78f6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/actions.2fb8e8349c22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/actions.min.5fa8cb0403f1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/actions.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/admin/DateTimeShortcuts.e3407a6ea666.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/admin/RelatedObjectLookups.ea0683bea064.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/autocomplete.cfd2c4dc8981.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/calendar.aae57adab5f6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/cancel.d6b4b556c3aa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/change_form.9e85003a1a38.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/collapse.acba97a53595.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/collapse.min.2ee8a0086864.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/collapse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/core.9c3bce7d1006.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/inlines.3b3fb199b064.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/inlines.min.4d23f8660b21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/inlines.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/jquery.init.95b62fa19378.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/popup_response.6ce3197f8fc8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/prepopulate.2f90da7170ec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/prepopulate.min.85fd5e0fb706.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/prepopulate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/prepopulate_init.0d3b53c37074.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/timeparse.51258861a46a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/timeparse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/urlify.4087f3e18796.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/jquery/jquery.6a07da9fae93.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/jquery/jquery.min.a09e13ee94d5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ar.a8bb27ec698c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/az.498dc667b34e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/bg.89cba4df3c86.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ca.2eaad4eb1950.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/cs.a68bcd293adc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/da.cbf897a0ae53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/de.366d0aacb55f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/el.5629ce65500f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/en.05649b26c086.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/es.dc9dbf9d65df.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/et.c3953fb90b6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/eu.11b925456433.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/fa.98e52839b583.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/fi.659847deefdc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/fr.b06a3340de45.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/gl.78a87f7c0a51.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/he.222d90ee0344.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/hi.116a90b7111b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/hr.e1d2c70b4df5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/hu.db45641f10b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/id.6ee6c9c64b94.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/is.808c7d47acb5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/it.bae1661dbb77.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ja.19cf1ce8a03d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/km.6074a9c5575c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ko.74b17541834f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/lt.a0783b1bd159.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/lv.07fe2a580d17.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/mk.4986d7fc3ff3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ms.23e7b4369579.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/nb.137e184004aa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/nl.c363ace8aa05.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/pl.76465b54a6b0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/pt-BR.9efbbac4fda8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/pt.5d6ccc53b347.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ro.1ddc2b9980dc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ru.d83609abf2e0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/sk.a0f1a818d092.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.2f3047aad49e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/sr.157bc6eb978e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/sv.2b21bb3f6110.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/th.2a4ece4c4355.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/tr.c1925d8817db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/uk.3d56f311192d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/vi.3520aa7bdea8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/zh-CN.419002d3c6c1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/zh-TW.c021537edf2c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/select2.full.a95323cb4760.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/select2.full.min.da607360bcc6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/xregexp/xregexp.1865b1cf5085.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/alert.eb188f4fb0fb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/base-component.5805fbffc711.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/button.7706bb0d0a71.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/carousel.7cea3801ea9a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/collapse.16a588973cf0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dom/data.4eb1f1a23140.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dom/event-handler.b762648a2140.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dom/manipulator.b2f17a9bef4f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dom/selector-engine.4a9019fbb8ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dropdown.7fa78ac3b783.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/modal.2b0cb543fd74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/popover.77285adfe142.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/scrollspy.dc5c11c59a60.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/tab.7842b14feed6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/toast.cedca09dae62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/tooltip.0f626f5f797a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/dist/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/alert.196127e18f3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/base-component.292859a79579.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/button.91515ed6f8ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/carousel.ae879c1951d9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/collapse.3eb806b3786b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dom/data.2c09f77ca5b1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dom/event-handler.f63ad476a6b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dom/manipulator.da79ffb227d4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dom/selector-engine.9e4de609bb61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dropdown.8aa318b2ccaa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/modal.7689c5d90615.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/popover.caa7fc41030a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/scrollspy.5e7067f2ffd3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/tab.967361425e33.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/toast.6ad5eb2e013a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/tooltip.49a647d9dae7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/util/index.cdafd8bf73be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/util/sanitizer.705927740157.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/mdb-prefix/util/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/alert.278c52c83ddf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/base-component.292859a79579.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/button.3d70647a9820.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/carousel.ffd2262b162e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/collapse.b1ac643bcae6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dom/data.2c09f77ca5b1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dom/event-handler.f63ad476a6b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dom/manipulator.0c13e7ee9a0c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dom/selector-engine.9e4de609bb61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dropdown.02fa89de39ef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/modal.51c3a0dd899c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/popover.dd1fac2145a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/scrollspy.8b690abf9784.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/tab.3476fcedc13f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/toast.2f8d547046d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/tooltip.fa807a3331b3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/util/index.596dfbd0d333.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/util/sanitizer.705927740157.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/bootstrap/src/util/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/alert.e59ee3196f4e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/button.d3fd98639901.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/carousel.b10252d45f6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/dropdown.4aa222d4bc0f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/input.3512e6f1acc1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/modal.b5187eb081d5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/popover.ede5bd8202f5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/range.096d4c667171.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/ripple.4b805de1d5dc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/ripple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/scrollspy.84652c5629ea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/tab.f9e6d3836879.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/toast.c8df8249e06f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/tooltip.8ef7b3bcb8c6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/free/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb.free.73c1aab45112.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb.free.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb.min.904566c55935.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/dom/data.7098d02905ea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/dom/event-handler.205fd756a010.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/dom/manipulator.4a92fdac6edf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/dom/selector-engine.1fc82adc3137.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/click-rail.553fc345b686.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/click-rail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/drag-thumb.0310f9efd5ef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/drag-thumb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/keyboard.45685180f194.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/mouse-wheel.a6bf424cc14b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/mouse-wheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/touch.1ae945280f18.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/handlers/touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/index.9942a220cf12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/class-names.a72171fb51b3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/class-names.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/css.14fc5c37271f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/dom.6353d4f9ee83.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/event-manager.806f6c89118c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/event-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/util.78bc72a906b7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/process-scroll-diff.d619dba4dc2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/process-scroll-diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/update-geometry.5f58c0f15477.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/perfect-scrollbar/update-geometry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/focusTrap.3b9f89597e0c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/focusTrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/index.6e26d6271024.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/keycodes.06e0f12fb84d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/keycodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/sanitizer.2b43f3662fde.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/stack.c2494b6c0493.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/touch/index.48e8379cc2f3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/touch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/touch/swipe.3e867d1efef7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/touch/swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/touch/touchUtil.e54bd12c777c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticfiles/js/mdb/util/touch/touchUtil.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1skMTtT2mG6RNCjXGqsuLqFFKlD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5aa85d97-1f2c-47fe-8f85-7d2ca13b6387" name="Default Changelist" comment="" />
+      <created>1621412144932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621412144932</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

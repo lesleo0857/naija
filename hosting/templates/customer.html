@@ -1,0 +1,67 @@
+
+{% extends "index.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{% block icons %}
+<li><a href="{% url 'checkout' %}"><span class="glyphicon glyphicon-log-in"></span> CHECKOUT</a></li>
+<li><img src="{{customer.profile_pic.url}}" height="80"></li>
+{% endblock %}
+<body>
+
+   {% block name %}
+   <b>HELLO {{customer.name}}</b>
+
+       {% if messages %}
+                      {% for message in messages %}
+                             <div id="messages">{{ message }}</div>
+                         <script type="text/javascript">
+                            var ik = document.getElementById('messages');
+                                    alert(ik.innerHTML)
+
+                        </script>
+
+                      {% endfor %}
+        {% endif %}
+
+
+     {% endblock %}
+
+
+
+
+         {% block addcart %}
+          <a id="plus" href="{{ i.add_to_cart_url }}">+</a>
+         {% endblock %}
+
+          {% block qty %}
+            <form id="qty_form" method="post" action="" >
+                        {% csrf_token%}
+            <input type="text" width="2" id="qty" name="qty">
+            <input type="submit" id="qty_btn"  >
+             </form>
+
+          {% endblock %}
+
+
+         {% block ordersummary %}
+          <a href="{% url 'ordersummary' %}"> Order summary </a>
+          {% endblock %}
+     {% block pagination %}
+        {% if productlist.has_previous %}
+          <a href="?page={{ productlist.previous_page_number }}"> previous </a>
+        {% endif %}
+
+         Page {{productlist.number}} of {{productlist.paginator.num_pages}}
+
+        {% if productlist.has_next %}
+          <a href="?page={{ productlist.next_page_number }}"> next </a>
+        {% endif %}
+     {% endblock %}
+</body>
+</html>
