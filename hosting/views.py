@@ -41,16 +41,25 @@ def product_view(request):
         return render(request, 'index.html', context)
     section = Section.objects.all()
     category  = Category.objects.all()
-    order = Order.objects.filter(user=request.user, ordered=False)
-    orderItem = OrderItem.objects.filter(order=order[0].pk)
+
+    try:
+        order = Order.objects.get(user=request.user, ordered=False)
+        orderItem = OrderItem.objects.filter(order_id=order.pk)
+        productlist = Products.objects.all()
+        context = {'productlist': productlist,
+                   'OrderItems': orderItem,'category':category,
+                   'section':section
+                   }
+        return render(request, 'index.html', context)
+    except:
+        ObjectDoesNotExist
 
     productlist = Products.objects.all()
     context = {'productlist': productlist,
-               'OrderItems': orderItem,'category':category,
-               'section':section
+                'category': category,
+               'section': section
                }
     return render(request, 'index.html', context)
-
 
 def product_detail_view(request,id):
     product_detail = Products.objects.get(id = id)
