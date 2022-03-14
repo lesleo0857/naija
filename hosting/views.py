@@ -225,7 +225,7 @@ def signup_view(request,**kwargs):
             user.is_active=False
             user.save()
             print(user.email)
-            uid = base64.encode(force_bytes(user.pk) )
+            uid = user.pk
 
 
             current_site=get_current_site(request)
@@ -264,25 +264,23 @@ def signup_view(request,**kwargs):
 def ActivateAccountView(request,uidb64):
 
     print(uidb64)
-    uid = base64.decodebytes(force_bytes(uidb64))
-    print(str (uid ))
+    #uid = base64.decodebytes(force_bytes(uidb64))
+    #sprint(str (uid ))
     try:
-        uid=uidb64.decode(base64)
-        print(uid)
-        user = User.objects.get(pk=1)
+        user = User.objects.get(pk=uidb64)
+        if user is not None:
+            username = user.username
+            group = Group.objects.get(name="Customers")
+            user.groups.add(group)
+            messages.add_message(request, messages.INFO, 'account activated succesfully')
+            Customer.objects.create(user=user, name=user.username)
+            user.is_active = True
+            user.save()
+            return redirect('login')
 
     except Exception as identifier:
         user= None
-    # user = User.objects.get(pk=uidb64)
-    # if user is not None :
-    #     username = user.username
-    #     group = Group.objects.get(name="Customers")
-    #     user.groups.add(group)
-    #     messages.add_message(request, messages.INFO, 'account activated succesfully')
-    #     Customer.objects.create(user=user, name=user.username)
-    #     user.is_active=True
-    #     user.save()
-    #     return redirect('login')
+
     return render(request,'actvation_failed.html',status=401)
 
 @authenticate_user
